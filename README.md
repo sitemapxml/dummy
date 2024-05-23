@@ -1,5 +1,5 @@
 # dummy
-Some dummy repo for testing. Just ignore...
+Some dummy repo for testing.
 
 ```
 cd /usr/local
