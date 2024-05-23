@@ -21,7 +21,7 @@ ls -A1lh
 total 36K
 -rw-r--r-- 1 root root  1 May 23 18:14 9-files-in-total
 -rw-r--r-- 1 root root  1 May 23 18:14 double.extension.empty
--rw-r--r-- 1 root root  1 May 23 18:14 double.extension.not_empty
+-rw-r--r-- 1 root root 52 May 23 18:14 double.extension.not_empty
 -rw-r--r-- 1 root root  1 May 23 18:14 .empty_dotfile
 -rw-r--r-- 1 root root  1 May 23 18:14 empty_file_no_extension
 -rw-r--r-- 1 root root  1 May 23 18:14 empty-file.txt
