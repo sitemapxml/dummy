@@ -1,6 +1,7 @@
 # dummy
 Some dummy repo for testing.
 
+To download and install:
 ```
 cd /usr/local
 git clone https://github.com/sitemapxml/dummy.git ./test
@@ -8,6 +9,13 @@ cd test
 rm -rf .git/ LICENSE README.md
 ```
 
+There should be 9 files in total:
+```
+ls -A1 | wc -l
+9
+```
+
+This should be the full list:
 ```
 ls -A1lh
 total 36K
@@ -22,6 +30,7 @@ total 36K
 -rw-r--r-- 1 root root 31 May 23 18:14 test-file-not-empty.txt
 ```
 
+This should be the list of empty files:
 ```
 find -type f -size 0
 ./empty-file.txt
@@ -29,7 +38,10 @@ find -type f -size 0
 ./9-files-in-total
 ./.empty_dotfile
 ./empty_file_no_extension
+```
 
+And this should be the list of not empty files:
+```
 find -type f -size +0
 ./double.extension.not_empty
 ./test-file-not-empty.txt
