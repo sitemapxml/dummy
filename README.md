@@ -11,7 +11,7 @@ rm -rf .git/ LICENSE README.md
 
 There should be 9 files in total:
 ```
-ls -A1 | wc -l
+find -type f | wc -l
 9
 ```
 
