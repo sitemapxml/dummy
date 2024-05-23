@@ -21,3 +21,18 @@ total 36K
 -rw-r--r-- 1 root root 48 May 23 18:14 not_empty_no_extension
 -rw-r--r-- 1 root root 31 May 23 18:14 test-file-not-empty.txt
 ```
+
+```
+find -type f -size 0
+./empty-file.txt
+./double.extension.empty
+./9-files-in-total
+./.empty_dotfile
+./empty_file_no_extension
+
+find -type f -size +0
+./double.extension.not_empty
+./test-file-not-empty.txt
+./.not_empty_dotfile
+./not_empty_no_extension
+```
