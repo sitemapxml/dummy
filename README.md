@@ -3,9 +3,8 @@ Some dummy repo for testing.
 
 To download and install:
 ```
-git clone https://github.com/sitemapxml/dummy.git /usr/local/test
-cd /usr/local/test
-rm -rf .git/ LICENSE README.md
+mkdir -pv /usr/local/test && git clone https://github.com/sitemapxml/dummy.git /usr/local/test
+cd /usr/local/test && rm -rf .git/ LICENSE README.md
 ```
 
 There should be 9 files in total:
